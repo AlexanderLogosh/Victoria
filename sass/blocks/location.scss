@@ -1,0 +1,27 @@
+.location {
+	border-top: 1px solid green;
+	@include container-fluid();
+}
+
+.location__title {
+	text-align: center;
+}
+
+.location li {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 250px;
+	margin: 10px;
+}
+
+.location__slider {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.location__slider img {
+	width: 300px;
+}
