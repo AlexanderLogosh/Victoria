@@ -8,6 +8,5 @@ design/
 *.log
 *.pdf
 *.sublime*
-css/*.css
 Thumbs.db
 .publish/
