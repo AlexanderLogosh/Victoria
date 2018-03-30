@@ -1,0 +1,20 @@
+.rooms {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	@include container-fluid();
+}
+
+.rooms h1 {
+	width: 100%;
+	text-align: center;
+}
+
+.rooms__room {
+	width: 300px;
+	margin: 15px 0;
+}
+.rooms__room  img{
+	width: 100%;
+}

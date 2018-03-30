@@ -1,0 +1,9 @@
+.features {
+	padding: 15px 10px;
+	border-top: 1px solid green;
+	@include container-fluid();
+}
+
+.features h1 {
+	text-align: center;
+}

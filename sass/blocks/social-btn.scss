@@ -1,0 +1,39 @@
+.social-btn {
+	display: inline-block; 
+	background: url('../img/social-sprite.png') no-repeat; 
+	overflow: hidden;
+	font-size: 0;  
+	text-align: left;
+	margin: 15px;
+	width: 48px; 
+	height: 48px;
+}
+
+.social-btn:hover,
+.social-btn:focus {
+	filter: brightness(120%) 
+					drop-shadow(0px 0px 5px #000000);
+}
+
+.social-btn:active {
+	filter: brightness(80%) 
+					drop-shadow(0px 0px 5px #fff);
+}
+
+.social-btn-vk {
+	background-position: -5px -106px; 
+}
+
+.social-btn-wa {
+	background-position: -5px -0px; 
+}
+
+.social-btn-v {
+	background-position: -5px -53px; 
+}
+
+@media ($tablet-widths) {
+	.social-btn {
+		margin: 5px 15px;
+	}
+}

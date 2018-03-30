@@ -1,0 +1,37 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	padding: 15px 10px;
+	@include container-fluid();
+}
+
+.about__title {
+	text-align: center;
+}
+
+.about__slider {
+	order: 1;
+}
+
+.about__slider img {
+	width: 100%;
+}
+
+
+@media ($tablet-widths) {
+	.about {
+		display: block;
+	}
+
+	.about__slider {
+		float: right;
+	}
+	
+	.about__slider  {
+		width: 40%;
+		margin: 0;
+		margin-left: 5%;
+
+	}
+}
+

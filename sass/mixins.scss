@@ -1,0 +1,12 @@
+@mixin container-fluid() {
+	box-sizing: border-box;
+	min-width: 320px;
+	margin: 0 auto;
+
+	@media ($tablet-widths) {
+		max-width: 768px;
+	}
+	@media ($desktop-widths) {
+		max-width: 1000px;
+	} 
+}
