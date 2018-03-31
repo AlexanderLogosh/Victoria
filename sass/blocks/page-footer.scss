@@ -1,0 +1,8 @@
+.page-footer {
+	padding: 1px;
+	background:#617594;
+}
+
+.page-footer__wrapper {
+	@include container-fluid();
+}

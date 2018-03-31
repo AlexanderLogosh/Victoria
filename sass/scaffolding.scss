@@ -2,9 +2,39 @@ body {
 	margin: 0;
 	padding: 0;
   font-family: Helveticaneue , sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 	background: #F6F6E6;
-	
+	color: #333;
 }
+
+@keyframes btn-filling {
+		    0% {
+					background-image: linear-gradient(to right, #ffffff, #FF8493);
+		    }
+		    15% {
+		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		    }
+		    30% {
+		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		    }
+		    45% {
+		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		    }
+		    60% {
+		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		    }
+		    75% {
+		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		    }
+		    80% {
+		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		    }
+		    90% {
+		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		    }
+		    100% {
+		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		    }
+		}
 
 

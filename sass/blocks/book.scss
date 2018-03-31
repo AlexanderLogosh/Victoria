@@ -1,0 +1,133 @@
+.book {
+	border-top: 1px solid green;
+	@include container-fluid();
+}
+
+.book__title {
+	text-align: center;
+}
+
+.book__form {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 18px;
+}
+
+.book__block {
+	width: 100%;
+}
+
+.book input, 
+.book select,
+.book textarea	{
+	border: 2px solid #9C9DDE;
+	border-radius: 4px;
+
+}
+
+.book input:hover,
+.book input:focus, 
+.book select:hover,
+.book select:focus,
+.book textarea:hover,
+.book textarea:focus {
+	border: 2px solid #FF8493;
+	box-shadow: 0px 0px 2px 1px #9D9D9D;
+	outline: 0;
+}
+
+.book__block--left input {
+	display: block;
+	box-sizing: border-box;
+	width: 300px;
+	padding: 5px 20px 5px 10px;
+	margin: 10px auto;
+}
+
+.book__block--right label {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	width: 300px;
+	margin: 10px auto;
+}
+
+.book__block--right select {
+ 	padding: 3px;
+	margin: 5px 2px;
+ }
+.book__block--right select[name="people"],
+.book__block--right select[name="children"] {
+	width: 130px;
+}
+
+.book  span {
+	display: block;
+	padding-top: 10px;
+	margin-right: auto;
+}
+
+.book__date {
+	display: flex;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	width: 300px;
+	margin: 10px auto;
+	
+}
+
+.book__date span {
+	width: 100%;
+	margin-bottom: 2px;
+}
+
+.book__comment {
+	display: block;
+	box-sizing: border-box;
+	width: 80%;
+	height: 100px;
+	padding: 10px;
+	margin: 20px 10%;
+}
+
+.book .book__btn {
+	box-sizing: border-box;
+	width: 200px;
+	padding: 12px;
+	margin: 10px auto;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #FF5C6B;
+	background: white;
+	border: 2px solid #FF8493;
+}
+
+.book .book__btn:hover,
+.book .book__btn:focus {
+	border: 2px solid #FF5C6B;
+	box-shadow: none;
+	color: #ffffff;
+	animation-name: btn-filling;
+	animation-duration: 2s;
+
+}
+
+@media ($tablet-widths) {
+	.book__block {
+		width: 50%;
+	}
+
+	.book__block--left input,
+	.book__block--right label,
+	.book__date  {
+		width: 400px
+	}
+
+	.book__date   span {
+		width: auto;
+	}
+}

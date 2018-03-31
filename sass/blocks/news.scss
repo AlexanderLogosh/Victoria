@@ -1,0 +1,7 @@
+.news {
+	@include container-fluid();
+}
+
+.news__title {
+	text-align: center;
+}
