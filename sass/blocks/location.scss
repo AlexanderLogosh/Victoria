@@ -8,14 +8,14 @@
 	text-align: center;
 }
 
-.location ul {
+.location__list {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 
 }
 
-.location li {
+.location__list li {
 	box-sizing: border-box;
 	width: 250px;
 	margin: 5px;

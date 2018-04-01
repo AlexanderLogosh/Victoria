@@ -1,7 +1,57 @@
 .news {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-bottom: 10px;
+	border-top: 1px solid green;
 	@include container-fluid();
 }
 
 .news__title {
+	width: 100%;
+	margin-bottom: 30px;
 	text-align: center;
+}
+
+.news__post {
+	position: relative;
+	width: 90%;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background: #D5D5D5;
+}
+
+.news__post img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.news__post-title-bg {
+	position: absolute;
+	display: block;
+	bottom: 0;
+  box-sizing: border-box;
+	width: 100%;
+	padding-left: 10px;
+	background: rgba(215,127,122, 0.9);
+	border-radius: 0 0 10px 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.news__post-title-bg:hover,
+.news__post-title-bg:focus {
+	color: #222364;
+}
+
+.news__post-title {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+@media ($tablet-widths) {
+	.news__post {
+		width: 45%;
+	}
 }

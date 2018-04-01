@@ -1,0 +1,17 @@
+.slider {
+	display: block;
+	width: 100%;
+	min-height: 100px;
+	@include container-fluid();
+}
+
+
+.slick-next {
+	right: 10px;
+}
+
+.slick-prev {
+	left: 10px;
+	z-index: 10;
+}
+

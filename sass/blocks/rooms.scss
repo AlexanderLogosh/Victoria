@@ -7,18 +7,6 @@
 	@include container-fluid();
 }
 .rooms_title {
+	width: 100%;
 	align-text: center;
-}
-
-.rooms h1 {
-	width: 100%;
-	text-align: center;
-}
-
-.rooms__room {
-	width: 300px;
-	margin: 15px 0;
-}
-.rooms__room  img{
-	width: 100%;
 }
