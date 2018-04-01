@@ -1,11 +1,17 @@
 .slider {
 	display: block;
+	box-sizing: border-box;
 	width: 100%;
 	min-height: 100px;
+	border-radius: 10px;
 	@include container-fluid();
+	outline: none;
 }
 
-
+.slider img {
+	border-radius: 15px;
+	outline: none;
+}
 .slick-next {
 	right: 10px;
 }
