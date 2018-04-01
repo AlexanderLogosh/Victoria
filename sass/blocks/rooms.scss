@@ -2,7 +2,7 @@
 	border-top: 1px solid green;
 	@include container-fluid();
 }
-.rooms_title {
+.rooms__title {
 	width: 100%;
-	align-text: center;
+	text-align: center;
 }
