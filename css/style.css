@@ -670,7 +670,7 @@ h1 {
 
 .page-footer {
   padding: 1px;
-  background: #617594; }
+  background: #6BA3F6; }
 
 .page-footer__wrapper {
   display: -webkit-box;
@@ -685,7 +685,7 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   min-width: 320px;
@@ -696,6 +696,8 @@ h1 {
   @media (min-width: 1000px) {
     .page-footer__wrapper {
       max-width: 1000px; } }
+  .page-footer__wrapper p {
+    margin: 10px; }
 
 .page-footer a,
 .page-footer {
@@ -709,7 +711,7 @@ h1 {
 
 .page-footer a:hover,
 .page-footer a:focus {
-  color: #31B03C; }
+  color: #065006; }
 
 .page-footer__contacts a {
   display: block; }

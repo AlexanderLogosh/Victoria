@@ -1,6 +1,6 @@
 .page-footer {
 	padding: 1px;
-	background:#617594;
+	background: #6BA3F6;
 }
 
 .page-footer__wrapper {
@@ -8,8 +8,12 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 0;
 	@include container-fluid();
+
+	p {
+		margin: 10px;
+	}
 }
 
 
@@ -27,7 +31,7 @@
 
 .page-footer a:hover,
 .page-footer a:focus {
-	color: $hovercolor;
+	color: #065006;
 }
 
 
