@@ -20,7 +20,9 @@
  	
 }
 .page-header__logo img {
+	display: block;
 	width: 300px; 
+	margin: 0 auto;
 
 }
 .page-header__contacts {
@@ -80,11 +82,11 @@
 
 	.page-header__logo {
 		width: 50%;
-		margin-top: 40px;
 	}
 
 	.page-header__logo img {
-		width: 60%; 
+		width: 80%;
+		margin: 0; 
 	}
 
 	.page-header__contacts {

@@ -134,7 +134,9 @@ h1 {
   width: 100%; }
 
 .page-header__logo img {
-  width: 300px; }
+  display: block;
+  width: 300px;
+  margin: 0 auto; }
 
 .page-header__contacts {
   width: 100%;
@@ -187,10 +189,10 @@ h1 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   .page-header__logo {
-    width: 50%;
-    margin-top: 40px; }
+    width: 50%; }
   .page-header__logo img {
-    width: 60%; }
+    width: 80%;
+    margin: 0; }
   .page-header__contacts {
     width: 50%;
     padding-top: 30px;
