@@ -788,6 +788,7 @@ h1 {
 
 .fqa {
   padding: 15px 10px;
+  padding-bottom: 35px;
   text-align: justify;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -805,4 +806,6 @@ h1 {
   margin-bottom: 30px; }
 
 .fqa__text-center {
-  text-align: center; }
+  width: 80%;
+  text-align: center;
+  margin: 0 auto; }
