@@ -803,7 +803,8 @@ h1 {
 
 .fqa__title {
   width: 100%;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: center; }
 
 .fqa__text-center {
   width: 80%;
