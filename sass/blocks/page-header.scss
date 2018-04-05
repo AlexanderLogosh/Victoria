@@ -16,11 +16,12 @@
 }
 
 .page-header__logo {
-	width: 60%;
-	margin: 20px auto; 
+	width: 100%;
+ 	
 }
 .page-header__logo img {
-	width: 100%; 
+	width: 300px; 
+
 }
 .page-header__contacts {
 	width: 100%;
@@ -53,13 +54,13 @@
 
 .page-header__number a:hover,
 .page-header__number a:focus {
-	color: #FF5C6B;
-	text-shadow: 2px 1px 1px #272727;
+	color: $hovercolor;
+	text-shadow: 2px 1px 1px $hovercolor;
 }
 
 .page-header__number a:active {
-	color: #EB0A19;
-	text-shadow: 1px 1px 1px #fff;
+	color: $hovercolor;
+	text-shadow: 1px 1px 1px $hovercolor;
 }
 
 .page-header__social-btn {
@@ -80,6 +81,10 @@
 	.page-header__logo {
 		width: 50%;
 		margin-top: 40px;
+	}
+
+	.page-header__logo img {
+		width: 60%; 
 	}
 
 	.page-header__contacts {

@@ -5,35 +5,42 @@ body {
   font-weight: 300;
 	background: #F6F6E6;
 	color: #333;
+	font-size: 17px;
+	line-height: 22px;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 38px;
 }
 
 @keyframes btn-filling {
 		    0% {
-					background-image: linear-gradient(to right, #ffffff, #FF8493);
+					background-image: linear-gradient(to right, #ffffff, $hovercolor);
 		    }
 		    15% {
-		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		      background-image: linear-gradient(to right, $hovercolor, $hovercolor, $hovercolor);
 		    }
 		    30% {
-		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		      background-image: linear-gradient(to right, $hovercolor, $hovercolor, $hovercolor);
 		    }
 		    45% {
-		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		      background-image: linear-gradient(to right, $hovercolor, $hovercolor, $hovercolor);
 		    }
 		    60% {
-		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		      background-image: linear-gradient(to right, $hovercolor, $hovercolor, $hovercolor);
 		    }
 		    75% {
-		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		      background-image: linear-gradient(to right, $hovercolor, $hovercolor, $hovercolor);
 		    }
 		    80% {
-		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		      background-image: linear-gradient(to right, $hovercolor, $hovercolor, $hovercolor);
 		    }
 		    90% {
-		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		      background-image: linear-gradient(to right, $hovercolor, $hovercolor, $hovercolor);
 		    }
 		    100% {
-		      background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493);
+		      background-image: linear-gradient(to right, $hovercolor, $hovercolor, $hovercolor);
 		    }
 		}
 

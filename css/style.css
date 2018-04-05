@@ -3,65 +3,71 @@ body {
   padding: 0;
   font-weight: 300;
   background: #F6F6E6;
-  color: #333; }
+  color: #333;
+  font-size: 17px;
+  line-height: 22px; }
+
+h1 {
+  font-size: 32px;
+  line-height: 38px; }
 
 @-webkit-keyframes btn-filling {
   0% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#FF8493));
-    background-image: linear-gradient(to right, #ffffff, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#31B03C));
+    background-image: linear-gradient(to right, #ffffff, #31B03C); }
   15% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   30% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   45% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   60% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   75% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   80% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   90% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   100% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); } }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); } }
 
 @keyframes btn-filling {
   0% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#FF8493));
-    background-image: linear-gradient(to right, #ffffff, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#31B03C));
+    background-image: linear-gradient(to right, #ffffff, #31B03C); }
   15% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   30% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   45% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   60% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   75% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   80% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   90% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); }
   100% {
-    background-image: -webkit-gradient(linear, left top, right top, from(#FF8493), color-stop(#FF8493), to(#FF8493));
-    background-image: linear-gradient(to right, #FF8493, #FF8493, #FF8493); } }
+    background-image: -webkit-gradient(linear, left top, right top, from(#31B03C), color-stop(#31B03C), to(#31B03C));
+    background-image: linear-gradient(to right, #31B03C, #31B03C, #31B03C); } }
 
 @font-face {
   font-family: "Helveticaneue";
@@ -125,11 +131,10 @@ body {
       max-width: 1000px; } }
 
 .page-header__logo {
-  width: 60%;
-  margin: 20px auto; }
+  width: 100%; }
 
 .page-header__logo img {
-  width: 100%; }
+  width: 300px; }
 
 .page-header__contacts {
   width: 100%;
@@ -159,12 +164,12 @@ body {
 
 .page-header__number a:hover,
 .page-header__number a:focus {
-  color: #FF5C6B;
-  text-shadow: 2px 1px 1px #272727; }
+  color: #31B03C;
+  text-shadow: 2px 1px 1px #31B03C; }
 
 .page-header__number a:active {
-  color: #EB0A19;
-  text-shadow: 1px 1px 1px #fff; }
+  color: #31B03C;
+  text-shadow: 1px 1px 1px #31B03C; }
 
 .page-header__social-btn {
   display: inline-block; }
@@ -184,6 +189,8 @@ body {
   .page-header__logo {
     width: 50%;
     margin-top: 40px; }
+  .page-header__logo img {
+    width: 60%; }
   .page-header__contacts {
     width: 50%;
     padding-top: 30px;
@@ -235,12 +242,12 @@ body {
 
 .main-nav a:hover,
 .main-nav a:focus {
-  color: #FF5C6B;
-  -webkit-box-shadow: inset 0px -4px 6px -4px #FF5C6B, inset 0px 4px 6px -4px #FF5C6B;
-          box-shadow: inset 0px -4px 6px -4px #FF5C6B, inset 0px 4px 6px -4px #FF5C6B; }
+  color: #31B03C;
+  -webkit-box-shadow: inset 0px -4px 6px -4px #31B03C, inset 0px 4px 6px -4px #31B03C;
+          box-shadow: inset 0px -4px 6px -4px #31B03C, inset 0px 4px 6px -4px #31B03C; }
 
 .main-nav a:active {
-  color: #EB0A19; }
+  color: #31B03C; }
 
 @media (min-width: 768px) {
   .main-nav {
@@ -257,9 +264,8 @@ body {
     padding: 15px 10px; }
   .main-nav a:hover,
   .main-nav a:focus {
-    color: #FF5C6B;
-    -webkit-box-shadow: inset 0px -4px 6px -4px #FF5C6B;
-            box-shadow: inset 0px -4px 6px -4px #FF5C6B; } }
+    -webkit-box-shadow: inset 0px -4px 6px -4px #31B03C;
+            box-shadow: inset 0px -4px 6px -4px #31B03C; } }
 
 .social-btn {
   display: inline-block;
@@ -454,6 +460,7 @@ body {
   width: 30%; }
 
 .book {
+  padding: 15px 10px;
   padding-bottom: 30px;
   border-top: 1px solid green;
   -webkit-box-sizing: border-box;
@@ -497,7 +504,7 @@ body {
 .book select:focus,
 .book textarea:hover,
 .book textarea:focus {
-  border: 1px solid #FF8493;
+  border: 1px solid #31B03C;
   -webkit-box-shadow: 0px 0px 2px 1px #9D9D9D;
           box-shadow: 0px 0px 2px 1px #9D9D9D;
   outline: 0; }
@@ -570,13 +577,13 @@ body {
   letter-spacing: 0.8px;
   font-size: 18px;
   font-weight: 400;
-  color: #FF5C6B;
+  color: #31B03C;
   background: white;
-  border: 2px solid #FF8493; }
+  border: 2px solid #31B03C; }
 
 .book .book__btn:hover,
 .book .book__btn:focus {
-  border: 2px solid #FF5C6B;
+  border: 2px solid #31B03C;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #ffffff;
@@ -700,7 +707,7 @@ body {
 
 .page-footer a:hover,
 .page-footer a:focus {
-  color: #FF5C6B; }
+  color: #31B03C; }
 
 .page-footer__contacts a {
   display: block; }
@@ -713,3 +720,82 @@ body {
             flex-direction: row; }
   .page-footer__contacts {
     text-align: right; } }
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 320px;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .contacts {
+      max-width: 768px; } }
+  @media (min-width: 1000px) {
+    .contacts {
+      max-width: 1000px; } }
+
+.contacts__text {
+  padding-bottom: 20px; }
+  .contacts__text span {
+    display: block;
+    margin: 5px 0;
+    margin-top: 20px;
+    color: grey;
+    font-size: 18px; }
+  .contacts__text p {
+    margin: 5px 0; }
+  .contacts__text a {
+    display: block;
+    padding: 2px;
+    color: #333;
+    text-decoration: none; }
+  .contacts__text a:hover {
+    color: #31B03C; }
+
+.contacts__map {
+  width: 100%;
+  height: 500px; }
+  .contacts__map iframe {
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.5); }
+
+@media (min-width: 768px) {
+  .contacts__text {
+    width: 50%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 30px; }
+  .contacts__map {
+    width: 50%;
+    padding: 40px 0;
+    height: auto; } }
+
+.fqa {
+  padding: 15px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 320px;
+  margin: 0 auto; }
+  @media (min-width: 768px) {
+    .fqa {
+      max-width: 768px; } }
+  @media (min-width: 1000px) {
+    .fqa {
+      max-width: 1000px; } }
+
+.fqa__title {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center; }

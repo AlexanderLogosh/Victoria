@@ -1,0 +1,10 @@
+.fqa {
+	padding: 15px 10px;
+  @include container-fluid();
+}
+
+.fqa__title {
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: center;
+}
