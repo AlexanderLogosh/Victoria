@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NikiToria</title>
+	<link rel="icon" type="image/png" href="img/icon.png">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="slick/slick.css" rel="stylesheet" type="text/css">
+	<link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="page-header">
+		<!-- <h1 class="visually-hidden">Гостевой дом "Виктория"</h1> -->
+		<div class="page-header__wrapper">	
+			<div class="page-header__logo">
+				<img src="img/logo/logo-4.png" alt="Логотип">
+			</div>
+			<ul class="page-header__contacts">
+				<li class="page-header__number"><a href="tel:+79788536748" title="Наталья">+7 978 853 67 48</a></li>
+				<li class="page-header__number"><a href="tel:+79788536747" title="Евгений">+7 978 853 67 47</a></li>
+				<li class="page-header__social-btn"><a class="social-btn social-btn-vk" title="Вконтакте" href="https://vk.com/feoberegovoe">Вконтакте</a></li>
+				<li class="page-header__social-btn"><a class="social-btn social-btn-wa" title="WhatsApp" href="whatsapp://add?number=+79788536748&abid=+79788536748">WhatsApp</a></li>
+				<li class="page-header__social-btn"><a class="social-btn social-btn-v" title="Viber" href="viber://add?number=+79788536748">Viber</a></li>
+			</ul>			
+			<nav class="main-nav">
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="#">Бронь</a></li>
+					<li><a href="rooms.html">Номера</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="fqa.html">Ответы на вопросы</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section class="book">
+			<h1 class="book__title">Забронировать номер</h1>
+			<form class="book__form" action="#" method="post">
+				<div class="book__block book__block--left">
+					<input type="text" name="name" placeholder="Ваше имя">
+					<input type="email" name="e-mail" placeholder="E-mail">
+					<input type="tel" name="telephone number" placeholder="Телефон">
+				</div>
+				<div class="book__block book__block--right">
+					<label>
+						<span>Сколько взрослых</span>
+						<select name="people">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+						</select>
+					</label>
+					<label>
+						<span>Сколько детей</span>
+						<select name="children">
+							<option value="0">Без детей</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+						</select>
+					</label>
+				</div>
+				<div class="book__block book__block--left-2">
+					<label class="book__date">
+						<span>Дата заезда:</span>
+						<input type="date" name="date-in">
+					</label>
+				</div>
+				<div class="book__block book__block--right-2">
+					<label class="book__date">
+						<span>Дата выезда:</span>
+						<input type="date" name="date-out">
+					</label>
+				</div>
+				<textarea class="book__comment" name="comment" rows="8" placeholder="Оставьте коментарий"></textarea>
+				<input class="book__btn" type="submit" value="Забронировать">
+			</form>
+		</section>
+	</main>
+	<footer class="page-footer">
+		<div class="page-footer__wrapper">
+			<p>Гостевой дом НикиТория<br> Береговое, Феодосия, Крым</p>
+			
+			<p><a href="mailto:victoria.beregovoe@gmail.com">nikitoriya.beregovoe@gmail.com</a></p>
+			<p class="page-footer__contacts">
+				<a href="tel:+79788536747">+7 978 853 67 48 Наталья</a>
+				<a href="tel:+79788536748">+7 978 853 67 47 Евгений</a>
+			</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -347,8 +347,10 @@ h1 {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 70%;
-  min-height: 100px;
+  width: 90%;
+  height: 260px;
+  margin: 15px 0;
+  padding: 10px;
   border-radius: 10px;
   box-sizing: border-box;
   min-width: 320px;
@@ -362,6 +364,7 @@ h1 {
       max-width: 1000px; } }
 
 .slider img {
+  margin: 20px 5px;
   border-radius: 15px;
   outline: none; }
 
@@ -390,6 +393,7 @@ h1 {
   text-align: center; }
 
 .rooms {
+  padding-bottom: 20px;
   border-top: 1px solid green;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -810,3 +814,32 @@ h1 {
   width: 80%;
   text-align: center;
   margin: 0 auto; }
+
+.map {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border-radius: 20px; }
+
+.map__title {
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 21px;
+  line-height: 27px;
+  color: white;
+  border-radius: 15px;
+  background: url("../img/location-2.jpg") no-repeat;
+  background-size: 100%;
+  background-position: left bottom; }
+  .map__title:hover {
+    color: #31B03C; }
+
+.map__title--bottom-corners {
+  border-radius: 15px 15px 0 0; }
+
+.map iframe {
+  border-radius: 0 0 15px 15px; }

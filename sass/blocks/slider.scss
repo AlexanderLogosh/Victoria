@@ -1,14 +1,17 @@
 .slider {
 	display: block;
 	box-sizing: border-box;
-	width: 70%;
-	min-height: 100px;
+	width: 90%;
+	height: 260px;
+	margin: 15px 0;
+	padding: 10px;
 	border-radius: 10px;
 	@include container-fluid();
 	outline: none;
 }
 
 .slider img {
+	margin: 20px 5px;
 	border-radius: 15px;
 	outline: none;
 }
@@ -21,3 +24,9 @@
 	z-index: 10;
 }
 
+// .slider .slick-current {
+// 	transform: scale(1.3);
+//   padding: 0 35px;
+//   margin: 20px 15px;
+//   border-radius: 15px;
+// }

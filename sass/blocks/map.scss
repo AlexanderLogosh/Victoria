@@ -1,0 +1,33 @@
+.map {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+}
+
+.map__title {
+	width: 100%;
+	padding: 20px 0;
+	margin: 0;
+	cursor: pointer;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 21px;
+	line-height: 27px;
+	color: white;
+	border-radius: 15px;
+	background: url("../img/location-2.jpg") no-repeat;
+	background-size: 100%;
+	background-position: left bottom;
+
+	&:hover {
+		color: $hovercolor;
+	}
+}
+
+.map__title--bottom-corners {
+	border-radius: 15px 15px 0 0;
+}
+.map iframe {
+	border-radius: 0 0 15px 15px ;
+}
