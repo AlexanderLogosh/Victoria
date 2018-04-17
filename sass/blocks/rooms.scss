@@ -73,4 +73,8 @@
 
 .rooms__gallery-block--green {
 	background: #5EB331;
+
+	& h2 {
+		color: white;
+	}
 }

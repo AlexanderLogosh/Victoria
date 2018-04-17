@@ -485,6 +485,8 @@ h1 {
 
 .rooms__gallery-block--green {
   background: #5EB331; }
+  .rooms__gallery-block--green h2 {
+    color: white; }
 
 .location {
   padding: 15px 10px;
