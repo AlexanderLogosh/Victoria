@@ -50,8 +50,16 @@
 }
 
 .rooms__gallery-block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
   width: 100%;
   @include container-fluid();
+}
+.rooms__gallery-block h2 {
+	width: 100%;
+	text-align: center;
 }
 
 .rooms__gallery-block img {
