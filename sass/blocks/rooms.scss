@@ -3,7 +3,66 @@
 	border-top: 1px solid green;
 	@include container-fluid();
 }
+
+.rooms__text {
+
+}
+
+.rooms__gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .rooms__title {
 	width: 100%;
 	text-align: center;
+}
+
+.rooms__quantity {
+	box-sizing: border-box;
+	width: 50%;
+}
+
+.rooms__quantity--left {
+	background: #FFD700;
+	text-align: right;
+}
+
+.rooms__quantity--right {
+	background: #5EB331;
+	text-align: left;
+}
+
+.rooms__quantity a {
+	display: block;
+	padding: 20px 120px;
+	color: #333;
+	font-size: 20px;
+	line-height: 26px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.rooms__quantity--right a {
+	color: white;
+}
+
+.rooms__gallery-block {
+  width: 100%;
+  @include container-fluid();
+}
+
+.rooms__gallery-block img {
+  width: 200px;
+	margin: 20px;
+}
+
+.rooms__gallery-block--yellow {
+	background: #FFD700;
+}
+
+.rooms__gallery-block--green {
+	background: #5EB331;
 }
