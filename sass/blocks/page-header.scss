@@ -16,10 +16,12 @@
 }
 
 .page-header__logo {
+	box-sizing: border-box;
 	width: 100%;
  	
 }
 .page-header__logo img {
+	box-sizing: border-box;
 	display: block;
 	width: 300px; 
 	margin: 0 auto;
