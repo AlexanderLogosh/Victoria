@@ -12,6 +12,10 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	background: #DEDEDE;
+	border-radius: 10px;
 }
 
 .rooms__title {
@@ -20,23 +24,38 @@
 }
 
 .rooms__quantity {
+	position: relative;
 	box-sizing: border-box;
 	width: 50%;
+
+	& a:hover,
+	& a:focus {
+		color: $hovercolor;
+	}
 }
 
 .rooms__quantity--left {
-	background: #FFD700;
 	text-align: right;
+	&::before {
+		position: absolute;
+		content: "";
+		width: 1px;
+		height: 35px;
+		right: 0;
+		top: 12px;
+		background: green;
+	}
 }
 
 .rooms__quantity--right {
-	background: #5EB331;
 	text-align: left;
 }
 
+
+
 .rooms__quantity a {
 	display: block;
-	padding: 20px 120px;
+	padding: 15px 120px;
 	color: #333;
 	font-size: 20px;
 	line-height: 26px;
@@ -45,9 +64,6 @@
 	font-weight: 500;
 }
 
-.rooms__quantity--right a {
-	color: white;
-}
 
 .rooms__gallery-block {
 	display: flex;
@@ -67,14 +83,7 @@
 	margin: 20px;
 }
 
-.rooms__gallery-block--yellow {
-	background: #FFD700;
-}
-
-.rooms__gallery-block--green {
-	background: #5EB331;
-
-	& h2 {
-		color: white;
-	}
+.rooms__quantity .rooms__quantity--activ {
+	color: green;
+	border-bottom: 1px solid green;
 }
