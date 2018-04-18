@@ -15,30 +15,13 @@
 	border-radius: 15px;
 	outline: none;
 }
-
-.slick-arrow {
-	background: #000;
-	padding: 0;
-}
-
 .slick-next {
-	right: 40px;
+	right: 10px;
 }
-.slick-next:before {
-	right: 40px;
-}
-
 
 .slick-prev {
-	left: 40px;
+	left: 10px;
 	z-index: 10;
-	background: #000;
-}
-
-.slick-prev:before {
-	left: 40px;
-	z-index: 10;
-	background: #000;
 }
 
 // .slider .slick-current {
