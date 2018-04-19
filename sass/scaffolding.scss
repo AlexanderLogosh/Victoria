@@ -15,6 +15,10 @@ h1 {
 	line-height: 38px;
 }
 
+main img {
+	cursor:pointer;
+}
+
 @keyframes btn-filling {
 		    0% {
 					background-image: linear-gradient(to right, #ffffff, $hovercolor);

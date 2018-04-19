@@ -1,16 +1,17 @@
 .rooms {
+	padding: 0;
 	padding-bottom: 20px;
 	border-top: 1px solid green;
 	@include container-fluid();
 }
 
 .rooms__text {
-
+ font-size: 16px;
 }
 
 .rooms__gallery {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
@@ -24,44 +25,26 @@
 }
 
 .rooms__quantity {
-	position: relative;
 	box-sizing: border-box;
-	width: 50%;
+	width: 100%;
 
-	& a:hover,
-	& a:focus {
-		color: $hovercolor;
-	}
 }
-
-.rooms__quantity--left {
-	text-align: right;
-	&::before {
-		position: absolute;
-		content: "";
-		width: 1px;
-		height: 35px;
-		right: 0;
-		top: 12px;
-		background: green;
-	}
-}
-
-.rooms__quantity--right {
-	text-align: left;
-}
-
-
 
 .rooms__quantity a {
 	display: block;
-	padding: 15px 120px;
+	padding: 15px 0px;
 	color: #333;
 	font-size: 20px;
 	line-height: 26px;
+	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: 500;
+
+	&:hover,
+	&:focus {
+		color: $hovercolor;
+	}
 }
 
 
@@ -69,21 +52,84 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-around;
+	box-sizing: border-box;
 	align-items: center;
   width: 100%;
+  padding-top: 30px;
   @include container-fluid();
 }
-.rooms__gallery-block h2 {
-	width: 100%;
-	text-align: center;
-}
+// .rooms__gallery-block h2 {
+// 	width: 100%;
+// 	text-align: center;
+// }
 
 .rooms__gallery-block img {
-  width: 200px;
+  width: 300px;
 	margin: 20px;
 }
 
 .rooms__quantity .rooms__quantity--activ {
 	color: green;
 	border-bottom: 1px solid green;
+}
+
+
+@media (min-width: 500px) {
+	.rooms__gallery {
+		flex-direction: row;
+	}
+
+	.rooms__quantity {
+		width: 50%;
+	}
+
+ 	.rooms__quantity--left {
+		text-align: right;
+		border-right: 1px solid green;
+	}
+
+	.rooms__quantity--right {
+		text-align: left;
+	}
+
+	.rooms__gallery-block img {
+		width: 250px;
+	}
+ }
+
+
+ @media ($tablet-widths) {
+ 	
+ }
+
+
+
+
+.popup {
+	position: fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+
+.popup_bg {
+	background:rgba(0,0,0,0.4);
+	position:absolute;
+	z-index:1;
+	height:100%;
+	width:100%;
+}
+
+
+.popup_img {
+	position: relative;
+	margin:0 auto;
+	z-index:2;
+	max-height:90%;
+	max-width:90%;
+	margin:1% 0 0 0;
 }

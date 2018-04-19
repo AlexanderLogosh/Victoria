@@ -20,4 +20,3 @@ btnRight.addEventListener("click", function(event) {
 	btnLeft.classList.toggle("rooms__quantity--activ");
 	btnRight.classList.toggle("rooms__quantity--activ");
 });
-
