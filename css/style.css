@@ -624,6 +624,9 @@ main img {
   max-height: 90%;
   max-width: 90%;
   margin: 1% 0 0 0; }
+  @media (max-width: 768px) {
+    .popup_img {
+      margin-top: 150px; } }
 
 .location {
   padding: 15px 10px;
