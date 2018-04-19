@@ -533,7 +533,8 @@ main img {
 .rooms__quantity {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%; }
+  width: 100%;
+  background: white; }
 
 .rooms__quantity a {
   display: block;
@@ -544,7 +545,8 @@ main img {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 500; }
+  font-weight: 500;
+  border-bottom: 1px solid green; }
   .rooms__quantity a:hover, .rooms__quantity a:focus {
     color: #31B03C; }
 
@@ -583,7 +585,8 @@ main img {
 
 .rooms__quantity .rooms__quantity--activ {
   color: green;
-  border-bottom: 1px solid green; }
+  border-bottom: 1px solid #DEDEDE;
+  background: #DEDEDE; }
 
 @media (min-width: 500px) {
   .rooms__gallery {
@@ -592,12 +595,11 @@ main img {
         -ms-flex-direction: row;
             flex-direction: row; }
   .rooms__quantity {
-    width: 50%; }
-  .rooms__quantity--left {
-    text-align: right;
+    width: 30%;
+    Flex-grow: 1; }
+  .rooms__quantity--center {
+    border-left: 1px solid green;
     border-right: 1px solid green; }
-  .rooms__quantity--right {
-    text-align: left; }
   .rooms__gallery-block img {
     width: 250px; } }
 
@@ -1109,7 +1111,7 @@ main img {
   line-height: 27px;
   color: white;
   border-radius: 15px;
-  background: url("../img/location-2.jpg") no-repeat;
+  background: url("../img/slider2/location-2.jpg") no-repeat;
   background-size: 100%;
   background-position: left bottom; }
   .map__title:hover {

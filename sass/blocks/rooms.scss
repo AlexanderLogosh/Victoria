@@ -27,6 +27,7 @@
 .rooms__quantity {
 	box-sizing: border-box;
 	width: 100%;
+	background: white;
 
 }
 
@@ -40,6 +41,7 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: 500;
+	border-bottom: 1px solid green;
 
 	&:hover,
 	&:focus {
@@ -71,7 +73,8 @@
 
 .rooms__quantity .rooms__quantity--activ {
 	color: green;
-	border-bottom: 1px solid green;
+	border-bottom: 1px solid #DEDEDE;
+	background: #DEDEDE;
 }
 
 
@@ -81,16 +84,13 @@
 	}
 
 	.rooms__quantity {
-		width: 50%;
+		width: 30%;
+		Flex-grow: 1;
 	}
 
- 	.rooms__quantity--left {
-		text-align: right;
+ 	.rooms__quantity--center {
+ 		border-left: 1px solid green;
 		border-right: 1px solid green;
-	}
-
-	.rooms__quantity--right {
-		text-align: left;
 	}
 
 	.rooms__gallery-block img {
