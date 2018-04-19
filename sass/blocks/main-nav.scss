@@ -1,4 +1,8 @@
 .main-nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
 	order: -1;
 	width: 100%;
 	margin: 0;
@@ -9,20 +13,20 @@
 	font-size: 19px;
 }
 
-.main-nav ul {
+.main-nav__list {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-.main-nav li {
+.main-nav__list li {
 	padding: 0;
 	margin: 0;
 	flex-grow: 1;
 }
 
-.main-nav a {
+.main-nav__list a {
 	display: inline-block;
 	width: 100%;
 	padding: 10px 0;
@@ -30,32 +34,137 @@
 	color: black;
 }
 
-.main-nav a:hover,
-.main-nav a:focus {
+.main-nav__list a:hover,
+.main-nav__list a:focus {
 	color: $hovercolor;
 	box-shadow: inset 0px -4px 6px -4px $hovercolor,
 							inset 0px 4px 6px -4px $hovercolor;
 }
 
-.main-nav a:active {
+.main-nav__list a:active {
 	color: $hovercolor;
 }
 
+
+
+$burger--thickness: 4px;
+.burger {
+	$width: 28px;
+	display: block;
+  border: 0;
+	background: none;
+	outline: 0;
+	padding: 0;
+	margin: 12px 0;
+	margin-left: auto;
+	margin-right: 10px;
+	cursor: pointer;
+
+	border-bottom: $burger--thickness solid currentColor;
+	width: $width;
+
+	transition: border-bottom 1s ease-in-out;
+	-webkit-transition: border-bottom 1s ease-in-out; 
+
+	// Fix for extra space in Firefox
+	&::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}	 
+
+	&:before {
+		content: "";
+		display: block;
+		border-bottom: $burger--thickness solid currentColor;
+		width: 100%;
+		margin-bottom: 5px;
+		transition: transform 0.5s ease-in-out;    
+		-webkit-transition: -webkit-transform 0.5s ease-in-out;        
+	}
+
+	&:after {
+		content: "";
+		display: block;
+		border-bottom: $burger--thickness solid currentColor;
+		width: 100%;
+		margin-bottom: 5px;
+		transition: transform 0.5s ease-in-out;
+		-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	}
+}
+
+.burger-check {
+  display: none;
+}
+
+.burger-check:checked ~ .burger {
+  border-bottom: $burger--thickness solid transparent;
+  transition: border-bottom 0.8s ease-in-out;
+  -webkit-transition: border-bottom 0.8s ease-in-out;
+
+  &:before {
+    transform: rotate(-405deg) translateY(1px) translateX(-3px);
+    -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);      
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+
+  &:after {
+    transform: rotate(405deg) translateY(-4px) translateX(-5px); 
+    -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);       
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+}
+
+$navigation__transition: max-height 0.5s ease-in-out;
+
+.main-nav__list {
+  overflow: hidden;
+  max-height: 0;
+  
+  transition: $navigation__transition;
+}
+
+.burger-check:checked ~ .main-nav__list {
+  max-height: 500px;
+  
+  transition: $navigation__transition;
+}
+
+
+
+
+
+
+
+
+
 @media ($tablet-widths) {
+	.burger,
+	#burger-check,
+	.burger-check {
+		display: none;
+	}
 	.main-nav {
+		position: relative;
+		display: block;
+		left: 0;
+		bottom: 0;
 		margin-top: 50px;
 		order: 1;
 	}
 
-	.main-nav ul {
+	.main-nav__list {
+		max-height: 70px;
 		flex-direction: row;
 	}
 
-	.main-nav a {
+	.main-nav__list a {
 		padding: 15px 10px;
 	}
-	.main-nav a:hover,
-	.main-nav a:focus {
+	.main-nav__list a:hover,
+	.main-nav__list a:focus {
 		box-shadow: inset 0px -4px 6px -4px $hovercolor;
 	}
 }

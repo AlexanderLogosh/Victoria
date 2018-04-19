@@ -1,10 +1,12 @@
 .page-header {
+	padding-top: 42px;
 	background: url("../img/bg-header-8.jpg") no-repeat;
-	background-position: 0 230px;
+	background-position: 0 bottom;
 	background-size:  cover;
 
 	@media ($tablet-widths) {
-		background-position: center -210px ;
+		padding-top: 0;
+		background-position: center -180px ;
 	}
 }
 
@@ -12,6 +14,7 @@
 	display: flex;
 	flex-direction: column;
 	padding: 0;
+	padding-top: 10px;
 	@include container-fluid();
 }
 

@@ -22,3 +22,5 @@ $(function(){
     ]
 });
 })
+
+// script for main navigation
