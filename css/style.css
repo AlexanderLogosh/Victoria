@@ -611,7 +611,7 @@ main img {
   text-align: center; }
 
 .popup_bg {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(44, 44, 44, 0.7);
   position: absolute;
   z-index: 1;
   height: 100%;
