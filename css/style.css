@@ -619,14 +619,16 @@ main img {
 
 .popup_img {
   position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0 auto;
   z-index: 2;
-  max-height: 90%;
+  max-height: 80%;
   max-width: 90%;
   margin: 1% 0 0 0; }
   @media (max-width: 768px) {
     .popup_img {
-      margin-top: 150px; } }
+      padding-top: 150px; } }
 
 .location {
   padding: 15px 10px;
