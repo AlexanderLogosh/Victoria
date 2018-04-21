@@ -1,17 +1,14 @@
 .news {
-	// display: flex;
-	// flex-direction: row;
-	// flex-wrap: wrap;
-	// justify-content: space-around;
-	padding: 10px 20px 10px;
-	border-top: 1px solid green;
-	@include container-fluid();
+	padding-left: 0;
+	padding-right: 0;
+	background: transparent;
+	box-shadow: none;
 }
-
 .news__title {
 	width: 100%;
-	margin-bottom: 30px;
 	text-align: center;
+	text-shadow: -1px 2px 3px white,
+							 1px -1px 3px white;
 	& a {
 		color: #333;
 		text-decoration: none;
@@ -21,6 +18,12 @@
 	& a:focus {
 		color: $hovercolor;
 	}
+}
+
+.news__post {
+	padding: 15px;
+	background: white;
+	box-shadow: 0px 1px 30px 2px rgba(0, 0, 0, 0.5);
 }
 
 .news__post--small {
@@ -33,7 +36,7 @@
 
 .news__post--big {
 	margin-bottom: 20px;
-	border-bottom: 1px solid green;
+	border-radius: 10px;
 
 	& .news__post-img {
 		margin: 20px auto;
@@ -97,6 +100,9 @@
 }
 
 @media ($tablet-widths) {
+	.news__post {
+		padding-right: 30px;
+	}
 	.news__post--small {
 		flex-direction: row;
 	}
@@ -115,22 +121,47 @@
 		margin: 0 auto;
 	}
 }
+// .news__btnAllpost {
+	
+
+// 	text-align: center;
+// 	font-size: 19px;
+// 	font-weight: 700;
+// 	color: #008000;
+// 	//text-shadow: 1px 1px 2px black;
+// 	text-transform: uppercase;
+// 	background: rgba(255, 255, 255, 0.7);
+// 	border: 2px solid green;
+// 	border-radius: 10px;
+// 	text-decoration: none;
+// 	&:hover,
+// 	&:focus {
+// 		text-shadow: 2px 1px 1px white;
+// 	}
+// }
+
 .news__btnAllpost {
 	display: block;
-	color: $hovercolor;
+	max-width: 300px;
 	padding: 15px 0;
+	margin: 0 auto;
 	margin-bottom: 30px;
 	text-align: center;
-	font-size: 19px;
-	font-weight: 500;
-	text-shadow: 1px 1px 1px #333;
 	text-transform: uppercase;
-	border-top: 1px solid green;
-	border-bottom: 1px solid green;
 	text-decoration: none;
-
+	letter-spacing: 0.8px;
+	font-size: 18px;
+	font-weight: 700;
+	color: green;
+	background: rgba(255, 255, 255, 0.7);
+	border: 2px solid green;
+	border-radius: 10px;
 	&:hover,
 	&:focus {
-		text-shadow: 1px 1px 1px white;
+		border: 2px solid $hovercolor;
+		box-shadow: none;
+		color: #ffffff;
+		animation-name: btn-filling;
+		animation-duration: 4s;
 	}
 }

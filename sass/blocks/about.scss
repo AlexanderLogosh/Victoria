@@ -1,19 +1,19 @@
 .about {
 	display: flex;
 	flex-direction: column;
-	padding: 15px 10px;
-	@include container-fluid();
+	margin-top: 0;
+	border-radius: 10px;
 }
 
 .about__title {
 	text-align: center;
 }
 
-.about__slider {
+.about__photo {
 	order: 1;
 }
 
-.about__slider img {
+.about__photo img {
 	width: 100%;
 	border-radius: 10px;
 }
@@ -22,14 +22,15 @@
 @media ($tablet-widths) {
 	.about {
 		display: block;
+		border-radius:  0 0 10px 10px;
 	}
 
-	.about__slider {
+	.about__photo {
 		float: right;
 	}
 	
-	.about__slider  {
-		width: 40%;
+	.about__photo  {
+		width: 30%;
 		margin: 0;
 		margin-left: 5%;
 

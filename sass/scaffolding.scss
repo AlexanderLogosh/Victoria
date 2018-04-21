@@ -1,13 +1,33 @@
 body {
 	margin: 0;
 	padding: 0;
-  //font-family: Helveticaneue , sans-serif;
   font-weight: 300;
-	background: #F6F6E6;
 	color: #333;
 	font-size: 17px;
 	line-height: 22px;
-	
+	background: url("../img/bg-header-8.jpg") right top no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+
+}
+
+main {
+	@include container-fluid();
+	padding: 0 10px;
+	 @media ($tablet-widths) {
+ 		padding: 0;
+ }
+}
+
+section {
+	padding: 15px 10px;
+	margin: 30px 0;
+	border-radius: 10px;
+	background: white;
+	box-shadow: 0px 1px 30px 2px rgba(0, 0, 0, 0.5);
+	@media ($tablet-widths) {
+ 		padding: 10px 20px 30px;
+ }
 }
 
 h1 {
@@ -16,8 +36,41 @@ h1 {
 }
 
 main img {
-	cursor:pointer;
+	cursor: pointer;
 }
+
+
+
+.popup {
+	position: fixed;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	display:none;
+	text-align:center;
+}
+.popup_bg {
+	background:rgba(44,44,44,0.7);
+	position:absolute;
+	z-index: 6;
+	height:100%;
+	width:100%;
+}
+.popup_img {
+	position: relative;
+	box-sizing: border-box;
+	margin:0 auto;
+	z-index: 6;
+	max-height: 90%;
+	max-width: 90%;
+	margin:1% 0 0 0;
+	 @media (max-width: 768px) {
+	 	padding-top: 80px;
+	 }
+}
+
+
 
 @keyframes btn-filling {
 		    0% {

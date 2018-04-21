@@ -1,8 +1,6 @@
 .book {
 	padding: 15px 10px;
 	padding-bottom: 30px;
-	border-top: 1px solid green;
-	@include container-fluid();
 }
 
 .book__title {
@@ -17,6 +15,7 @@
 }
 
 .book__block {
+	box-sizing: border-box;
 	width: 100%;
 }
 
@@ -42,7 +41,7 @@
 .book__block--left input {
 	display: block;
 	box-sizing: border-box;
-	width: 300px;
+	width: 290px;
 	padding: 5px 20px 5px 10px;
 	margin: 10px auto;
 }
@@ -51,7 +50,7 @@
 	display: flex;
 	box-sizing: border-box;
 	flex-wrap: wrap;
-	width: 300px;
+	width: 290px;
 	margin: 10px auto;
 }
 
@@ -75,7 +74,7 @@
 	box-sizing: border-box;
 	flex-wrap: wrap;
 	justify-content: flex-end;
-	width: 300px;
+	width: 290px;
 	margin: 10px auto;
 	
 }
@@ -126,7 +125,7 @@
 	.book__block--left input,
 	.book__block--right label,
 	.book__date  {
-		width: 400px
+		width: 320px;
 	}
 
 
