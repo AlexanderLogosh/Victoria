@@ -6,8 +6,11 @@ body {
   font-size: 17px;
   line-height: 22px;
   background: url("../img/bg-header-8.jpg") right top no-repeat;
-  background-size: cover;
+  background-size: auto 100vh;
   background-attachment: fixed; }
+  @media (min-width: 768px) {
+    body {
+      background-size: cover; } }
 
 main {
   -webkit-box-sizing: border-box;
