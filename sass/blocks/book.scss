@@ -1,5 +1,4 @@
 .book {
-	padding: 15px 10px;
 	padding-bottom: 30px;
 }
 
@@ -24,7 +23,6 @@
 .book textarea	{
 	border: 1px solid #9C9DDE;
 	border-radius: 4px;
-
 }
 
 .book input:hover,
@@ -41,7 +39,7 @@
 .book__block--left input {
 	display: block;
 	box-sizing: border-box;
-	width: 290px;
+	width: 280px;
 	padding: 5px 20px 5px 10px;
 	margin: 10px auto;
 }
@@ -49,8 +47,7 @@
 .book__block--right label {
 	display: flex;
 	box-sizing: border-box;
-	flex-wrap: wrap;
-	width: 290px;
+	width: 280px;
 	margin: 10px auto;
 }
 
@@ -60,7 +57,7 @@
  }
 .book__block--right select[name="people"],
 .book__block--right select[name="children"] {
-	width: 130px;
+	width: 125px;
 }
 
 .book  span {
@@ -74,15 +71,14 @@
 	box-sizing: border-box;
 	flex-wrap: wrap;
 	justify-content: flex-end;
-	width: 290px;
+	width: 280px;
 	margin: 10px auto;
 	
+	span {
+		margin-bottom: 2px;
+	}
 }
 
-.book__date span {
-	
-	margin-bottom: 2px;
-}
 
 .book__comment {
 	display: block;
