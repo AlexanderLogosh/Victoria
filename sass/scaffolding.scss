@@ -17,6 +17,7 @@ body {
 main {
 	@include container-fluid();
 	padding: 0 10px;
+	text-align: justify;
 	 @media ($tablet-widths) {
  		padding: 0;
  }
