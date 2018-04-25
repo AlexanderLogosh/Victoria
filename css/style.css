@@ -2,7 +2,6 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  height: 100%;
   padding-bottom: 220px;
   font-weight: 300;
   color: #333;
@@ -11,9 +10,6 @@ body {
   background: url("../img/bg-header-8.jpg") right top no-repeat;
   background-size: auto 100vh;
   background-attachment: fixed; }
-  @media (min-width: 768px) {
-    body {
-      background-size: cover; } }
   @media (min-width: 1024px) {
     body {
       padding-bottom: 100px; } }
