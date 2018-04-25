@@ -521,6 +521,7 @@ main img {
   text-align: center; }
 
 .rooms--single-page {
+  position: relative;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
