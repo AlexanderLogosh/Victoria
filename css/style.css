@@ -633,6 +633,10 @@ main img {
             box-sizing: border-box;
     height: 50px; }
 
+.rooms__comment {
+  display: block;
+  color: grey; }
+
 @media (min-width: 700px) {
   .rooms__table-wrapper {
     overflow: none;
