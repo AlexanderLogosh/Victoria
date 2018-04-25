@@ -191,6 +191,7 @@
 		Flex-grow: 1;
 	}
 	
+
 	.rooms__quantity--left a {
 		border-radius: 20px 0 0 0;
 	}
@@ -206,5 +207,9 @@
 
 	.rooms__gallery-block img {
 		width: 250px;
+	}
+	.rooms__gallery-block--left img:nth-child(1),
+	.rooms__gallery-block--left img:nth-child(2) {
+		width: 400px;
 	}
  }

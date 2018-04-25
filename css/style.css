@@ -661,7 +661,10 @@ main img {
     border-left: 1px solid green;
     border-right: 1px solid green; }
   .rooms__gallery-block img {
-    width: 250px; } }
+    width: 250px; }
+  .rooms__gallery-block--left img:nth-child(1),
+  .rooms__gallery-block--left img:nth-child(2) {
+    width: 400px; } }
 
 .location {
   text-align: left; }
