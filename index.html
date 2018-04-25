@@ -212,6 +212,17 @@
 			</article>
 			<a class="news__btnAllpost" href="news.html" >Посмотреть все новости</a>
 		</section>
+		<script>
+			var title = document.querySelector(".map__title");
+			var panorama = document.querySelector(".map__panorama");
+			panorama.classList.add("visually-hidden");
+
+			title.addEventListener("click", function(event) {
+			  event.preventDefault();
+			  title.classList.toggle("map__title--bottom-corners");
+			  panorama.classList.toggle("visually-hidden");
+			});
+		</script>
 	</main>
 	<footer class="page-footer">
 		<div class="page-footer__wrapper">

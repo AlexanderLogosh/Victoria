@@ -37,3 +37,21 @@ btnRight.addEventListener("click", function(event) {
 	btnCenter.classList.remove("rooms__quantity--activ");
 	btnRight.classList.add("rooms__quantity--activ");
 });
+
+// $(function(){
+//  $('.slider-for').slick({
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   arrows: false,
+//   fade: true,
+//   asNavFor: '.slider-nav'
+// });
+// $('.slider-nav').slick({
+//   slidesToShow: 3,
+//   slidesToScroll: 1,
+//   asNavFor: '.slider-for',
+//   dots: true,
+//   centerMode: true,
+//   focusOnSelect: true
+// });
+// });
